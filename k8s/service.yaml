@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: mern-frontend-service
+  namespace: mern-app
+spec:
+  selector:
+    app: mern-frontend
+  ports:
+  - port: 80
+    targetPort: 80
+    nodePort: 32001
+  type: NodePort

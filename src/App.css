@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.formStyle {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 0 0.5rem gray;
+  padding: 20px;
+  width: 600px;
+  height: 500px;
+  font-size: 20px;
+  overflow-y: scroll;
+}
+.formImage {
+  box-shadow: 0 0 0.5rem gray;
+  width: 600px;
+  padding: 20px;
+  height: 500px;
+}
+.formCon {
+  /* box-shadow: 0 0 0.5rem gray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  /* height: 600px; */
+}
+.submitButton {
+  height: 40px;
+  font-size: 20px;
+  /* width: 200px; */
+  background-color: blue;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.formInput {
+  /* height: 50px; */
+  width: 300px;
+  border-color: blue;
+  border-radius: 10px;
+  outline: 0;
+  padding: 20px;
+}
+.fieldCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  /* background-color: red; */
+}
+.labelCon {
+  width: 200px;
+  /* background-color: red; */
+}
+.LoginFormCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.validationSTyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+.LoginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0 0 0.5rem gray;
+  flex-direction: column;
+  font-size: 20px;
+  /* padding: 20px; */
+  height: 500px;
+  width: 600px;
+}
+.LoginsubmitButton {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.formFields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginImage {
+  height: 150px;
+  width: 150px;
+}
+.imageStyle {
+  width: 300px;
+  height: 300px;
+  /* margin: 10px; */
+  /* background-color: red; */
+}
+.singleProduct {
+  padding: 10px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 0 0.5rem gray;
+  overflow-y: scroll;
+}
+
+.singleProductStyle {
+  /* padding: 20px; */
+}
+.singleProductItemsAlign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.productImage {
+  width: 500px;
+  height: 600px;
+  box-shadow: 0 0 0.5rem gray;
+  border-radius: 10px;
+}
+.productDataStyle {
+  display: flex;
+  height: 600px;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  gap: 50px;
+  width: 60%;
+  margin: 30px;
+  padding: 10px;
+  /* background-color: red; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.productCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 10px;
+}
+.cartButton {
+  background-color: blue;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  border: 0px;
+  width: 300px;
+}
+.gotocartButton {
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 5px;
+  color: black;
+  padding: 20px;
+  border: 0px;
+  width: 300px;
+  margin: 10px;
+}
+.singleproductincart {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+}
+.imageCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.QtySpan {
+  padding: 10px;
+  border: 1px solid gray;
+  /* margin: 10px; */
+}
+.qtybuttonStyle {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid rgb(189, 189, 189);
+
+  /* padding: 5px; */
+}
+.cartimageStyle {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  /* filter: drop-shadow(0px 0px 12px gray); */
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 10px;
+  /* background-color: yellow; */
+}
+.Pricebox {
+  /* border: 1px solid rgb(189, 189, 189); */
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+}
+.priceType {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  background-color: white;
+}
+.pricedetails {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: white;
+}
+.placeorderbar {
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.paymentbar{
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+  background-color: white;
+}
+.placeorderButton {
+  padding: 15px;
+  width: 200px;
+  background-color: rgb(255, 208, 0);
+  border: 0;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.addressbar {
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.addaddressButton {
+  padding: 10px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.changeaddressButton {
+  padding: 15px;
+  width: 200px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.addressallButtons {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.singleaddress {
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.singlePlcaedOrderConStyle {
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  width: 40%;
+}
+.orderImageStyle {
+  width: 200px;
+  height: 200px;
+}
+
+.shippingDetilsStyle {
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.orderidStyle {
+  padding: 20px;
+}
+.orderpageFieldHeading {
+  font-size: 25px;
+  font-weight: bold;
+}
+.address {
+  font-size: 17px;
+}
+.OrderedProductImageStyle {
+  width: 200px;
+  height: 200px;
+}
+.ProductsInCartOfOrders {
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 93vw;
+  overflow-x: scroll;
+}
+.ordersStyle {
+  /* width: 40%; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.PlacedOrderSingleProductCon {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  box-shadow: 0 0 0.5rem gray;
+  margin: 10px;
+  /* overflow-y: scroll; */
+}
+.OrderimageCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.OrderdataCon {
+  height: 400px;
+  overflow-y: scroll;
+}
+.trackingOrderStyle {
+  box-shadow: 0 0 0.5rem gray;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+.TrackSymbol {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.Singletrack {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.navbarCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 30px;
+  background-color: blue;
+  color: white;
+  padding: 25px;
+  box-shadow: 0 0 0.5rem gray;
+  /* border-radius: 10px; */
+  margin-bottom: 10px;
+}
+.navButton {
+  border: 0;
+  background-color: transparent;
+  font-size: 22px;
+  color: white;
+}
+.navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.changeAddressStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.changeaddressform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 700px;
+  font-size: 25px;
+  box-shadow: 0 0 0.5rem gray;
+  padding: 20px;
+}
+.wishlistButton {
+  background-color: white;
+  border: 2px solid blue;
+  font-size: 20px;
+  border-radius: 5px;
+  color: black;
+  /* padding: 20px; */
+  /* border: 0px; */
+  width: 300px;
+  margin: 10px;
+}
+.wishlistdiv {
+  width: 260px;
+  padding: 20px;
+}
+.singlewishlistProduct {
+  padding: 10px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 0 0.5rem gray;
+  overflow-y: scroll;
+}
+.singlewishlistProductCon {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
