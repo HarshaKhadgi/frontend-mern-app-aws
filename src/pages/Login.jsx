@@ -59,7 +59,7 @@ const Login = () => {
         />
         <div className="formFields">
           <div style={{ width: "150px" }}>
-            <label htmlFor="email">Email Address</label>
+            <label htmlFor="email">Email Address1</label>
           </div>
           <div>
             <input
