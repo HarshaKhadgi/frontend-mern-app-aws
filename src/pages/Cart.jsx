@@ -4,6 +4,7 @@ import SingleProductInCart from "../components/SingleProductInCart";
 import { useNavigate } from "react-router-dom";
 import { useRazorpay } from "react-razorpay";
 import axios from "axios";
+import myAxios from "../myAxios";
 
 const Cart = () => {
   const {
@@ -94,8 +95,8 @@ const Cart = () => {
     // console.log(Amount);
     const Amount = Price + 3 + (Price > 499 ? 0 : 40);
     try {
-      const res = await axios.post(
-        "http://localhost:5000/order/create",
+      const res = await myAxios.post(
+        "/order/create",
         { amount: parseInt(Amount) * 100 },
         {
           headers: { Authorization: localStorage.getItem(USER_TOKEN_KEY) },
@@ -137,15 +138,11 @@ const Cart = () => {
           };
 
           try {
-            const res1 = await axios.post(
-              "http://localhost:5000/order/verify",
-              orderObj,
-              {
-                headers: {
-                  Authorization: localStorage.getItem(USER_TOKEN_KEY),
-                },
-              }
-            );
+            const res1 = await myAxios.post("/order/verify", orderObj, {
+              headers: {
+                Authorization: localStorage.getItem(USER_TOKEN_KEY),
+              },
+            });
             console.log(res1.data);
             // nav("/orders")
             onlineOrderAlert(nav);
