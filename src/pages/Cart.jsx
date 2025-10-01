@@ -109,7 +109,8 @@ const Cart = () => {
         currency: "INR",
         description: "Test Transaction",
         image: "https://example.com/your_logo",
-        key: import.meta.env.VITE_RAZORPAY_KEY, // Enter the Key ID generated from the Dashboard
+        // key: import.meta.env.VITE_RAZORPAY_KEY, // Enter the Key ID generated from the Dashboard
+        key: "rzp_test_rkD0c6I1YhgGhp", // Enter the Key ID generated from the Dashboard
         name: "Harsha", //your business name
         order_id: res.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
         handler: async (response) => {
